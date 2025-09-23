@@ -11,6 +11,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:3000',
+  'https://pro-linker-lemon.vercel.app'
 ];
 
 app.use(cors({
